@@ -18,13 +18,13 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter:2.5.14'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.14'
+	implementation 'org.springframework.boot:spring-boot-starter:3.2.0'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test:3.2.0'
 	
 	// practice 1
 	compileOnly "org.projectlombok:lombok:1.18.30"
 	
-	// pratice 2
+	// practice 2
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
