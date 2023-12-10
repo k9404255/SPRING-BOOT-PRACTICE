@@ -1,0 +1,8 @@
+springdoc:
+  swagger-ui:
+    path: /su # Swagger UI的路徑
+    operations-sorter: alpha #alpha（按路徑字母數字排序）、method（按 HTTP 方法排序)
+    enabled: true # 開啟或關閉Swagger UI
+  api-docs:
+    path: /v3/api-docs # API文檔的URL，默認為/v3/api-docs
+    enabled: true # 產生定義文件
