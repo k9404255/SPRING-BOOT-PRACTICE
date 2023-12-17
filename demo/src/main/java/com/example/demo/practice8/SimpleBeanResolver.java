@@ -1,4 +1,4 @@
-package com.example.demo.pratice8;
+package com.example.demo.practice8;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.expression.BeanResolver;

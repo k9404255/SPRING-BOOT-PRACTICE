@@ -1,4 +1,4 @@
-package com.example.demo.pratice8;
+package com.example.demo.practice8;
 
 import org.jeasy.rules.api.Facts;
 import org.springframework.beans.factory.annotation.Autowired;

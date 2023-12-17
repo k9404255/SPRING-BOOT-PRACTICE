@@ -1,4 +1,4 @@
-package com.example.demo.pratice8;
+package com.example.demo.practice8;
 
 import lombok.Data;
 
