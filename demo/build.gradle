@@ -25,9 +25,14 @@ dependencies {
 	compileOnly "org.projectlombok:lombok:1.18.30"
 	
 	// practice 2
-	implementation 'org.springframework.boot:spring-boot-starter-web'
+	//implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	
+	// Spring EL
+	implementation 'org.jeasy:easy-rules-core:4.1.0'
+    implementation 'org.jeasy:easy-rules-spel:4.1.0'
+    implementation 'org.jeasy:easy-rules-support:4.1.0'
 }
 
 tasks.named('test') {

@@ -6,3 +6,11 @@ springdoc:
   api-docs:
     path: /v3/api-docs # API文檔的URL，默認為/v3/api-docs
     enabled: true # 產生定義文件
+    
+rule:
+  skip-on-first-failed-rule: true
+  skip-on-first-applied-rule: false
+  skip-on-first-non-triggered-rule: false
+  rules:
+    - rule-id: "demo"
+      rule-file-location: "classpath:demo-rule.yml"
