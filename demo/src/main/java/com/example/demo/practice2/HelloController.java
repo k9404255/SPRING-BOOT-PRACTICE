@@ -1,4 +1,4 @@
-package com.example.demo.practice1;
+package com.example.demo.practice2;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
